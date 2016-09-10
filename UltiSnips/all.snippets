@@ -1,0 +1,5 @@
+snippet modeline "vim modeline" b
+`!v printf(&commentstring, " vim".":"." set sw=".&sw." ts=".&ts." ".(&expandtab ? "expandtab" : "noexpandtab")." ft=".&ft.": ")`
+endsnippet
+
+# vim: set sw=4 ts=4 ft=snippets noexpandtab:
